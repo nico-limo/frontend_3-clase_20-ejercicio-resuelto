@@ -3,24 +3,21 @@
 Vamos actualizar nuevamente nuestra pokedex con functions hooks y el useEffect.
 
 ## Consigna
-App.jsx:
-- Hacer las rutas para que nuestra aplicacion pueda mostrar los componentes que corresponden
+Home.jsx:
+- Hacer fetch de la API de los pokemons en el useEffect
+- Modificar los states `pokemons`, `loading`, `errorMessage`
 
 Pokemon.jsx:
-- Utilizaras las props que recibes por parametros
-- Completar el pedido axios
-- Tambien deberan hacer un llamado a la api para obtener los datos del pokemon seleccionado
+- Hacer fetch de la API del pokemon en el useEffect
+- Modificar los states `pokemon`, `loading`, `errorMessage`
 
-Navbar.jsx:
-- Migrar los `links` por componentes de `react router dom`
-
-Home.jsx:
-- Migrar el `link` por componentes de `react router dom`
+Search.jsx:
+- Hacer fetch de la API segun lo que reciba del estado `newUrl` en el useEffect
+- Modificar los states `pokemon`, `loading`, `errorMessage`
 
 
 ## Bonus Extra
-Si lograste terminar, te invito a realizar una nueva ruta adicional que sea para ver los `moves` del pokemon.
-Tambien que puedan evitar que el usuario entre en cualquier ruta (¿como podiamos evitar este inconveniente?)
+Si terminaste y examinaste los archivos dentro de la carpeta `styles`. Veras uno que se llama `global.css`. Te invito a investigar sobre las [variables en CSS](https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties).
 
 
 ### Pasos para correr el proyecto
@@ -32,4 +29,3 @@ Relizar segundo `npm start`
 En caso de que el proyecto no poder hacer `npm install`, actualizar a las versiones:
 `NPM 7.19.1` o superior
 `NODE 16.5.0` o superior.
-

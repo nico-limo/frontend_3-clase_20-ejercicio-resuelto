@@ -47,6 +47,9 @@ const Search = () => {
         return () => {
             setPokemon({});
             setErrorMessage("");
+            setSearchInput("");
+            setShowMoves(false);
+            setNewUrl("");
         }
     }, [newUrl])
 
